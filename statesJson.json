@@ -1,3 +1,11 @@
+{
+    "metadata":{
+        "responseInfo":{
+            "status":1,
+            "developerMessage":"OK",
+        }
+    },
+    "results":[
 [
     {
         "title": "Alaska",
@@ -6,5 +14,6 @@
         "confirmed": 0,
         "suspected": 0,
     }
-】
-
+]
+    ]
+}
