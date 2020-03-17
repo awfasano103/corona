@@ -1,11 +1,90 @@
 {
-"results":[
-    {
-        "title": "Alaska",
-        "body": "Almost one infection",
-        "recovered": 0,
-        "confirmed": 0,
-        "suspected": 0,
-    }
-]
+   "metadata":{
+      "responseInfo":{
+         "status":200,
+         "developerMessage":"OK",
+         "userMessage":"",
+         "errorCode":"",
+         "moreInfo":""
+      },
+      "requestInfo":{
+         "apiVersion":1,
+         "resource":"petitions",
+         "query":{
+            "body":null,
+            "createdAfter":null,
+            "createdAt":null,
+            "createdBefore":null,
+            "isPublic":1,
+            "isSignable":null,
+            "limit":"100",
+            "mock":0,
+            "offset":0,
+            "petitionsDefaultLimit":"1000",
+            "publicThreshold":149,
+            "responseId":null,
+            "signatureCount":null,
+            "signatureCountCeiling":null,
+            "signatureCountFloor":0,
+            "signatureThreshold":null,
+            "signatureThresholdCeiling":null,
+            "signatureThresholdFloor":null,
+            "sortBy":"DATE_REACHED_PUBLIC",
+            "sortOrder":"ASC",
+            "status":null,
+            "title":null,
+            "url":null,
+            "websiteUrl":"https://petitions.whitehouse.gov"
+         }
+      },
+      "resultset":{
+         "count":1375,
+         "limit":100,
+         "offset":0
+      }
+   },
+   "results":[
+      {
+         "id":"2722358",
+         "type":"petition",
+          "confirmed": 0,
+          "recovered": 0,
+          "suspected": 0,
+         "title":"Alaska",
+         "body":"Alaska is a Great place",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":149,
+         "signaturesNeeded":99851,
+         "url":"https://petitions.whitehouse.gov/petition/remove-chuck-schumer-and-nancy-pelosi-office",
+         "deadline":1549642064,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1547050064,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":0
+      }
+   ]
 }
