@@ -1,4 +1,5 @@
-[
+{
+"results":[
     {
         "title": "Alaska",
         "body": "Almost one infection",
@@ -7,3 +8,4 @@
         "suspected": 0,
     }
 ]
+}
